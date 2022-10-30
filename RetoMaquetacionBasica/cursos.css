@@ -49,17 +49,16 @@ body{
     text-decoration: none;
     color:white;   
 }
+
 /* HASTA AQUI EL HEADER///////////////////////////////// */
-
-
 
 .div{
     /* border: 2px solid greenyellow; */
-    background-image: url("img/codenocht.png");
+    /* background-image: url("img/codenocht.png");
     background-size:cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     width: 100%;
-    height: 19%;
+    height: 15%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,61 +66,47 @@ body{
 }
 
 .h1{
-<<<<<<< HEAD
-    border:2px solid white;
-<<<<<<< HEAD
-=======
-=======
     /* border:2px solid white; */
->>>>>>> dia2
     color: white;
-    font-size: 400%;
+    font-size: 500%;
+    margin-bottom: 5%;
     
 }
 .h2{
     /* border:2px solid white; */
-    color:cyan;
-    font-size: 400%;
->>>>>>> dia2
+    color:white;
+    font-size: 200%;
+    width: 70%;
 }
 
-
-
-
-/* BANDA DIVISORIA /////////////////////////////////////////*/
-.div2{
-    /* border: 2px solid white; */
+.divFull{
+    /* border:2px solid black; */
     width: 100%;
-    height: 2%;
-    background-color: black;
+    height: 12%;
+    background-color: white;
     display: flex;
-    justify-content: center;
-}
-
-/* HASTA AQUI BANDA DIVISORIA /////////////////////////////////////////*/
-
-
-
-.div3{
-    /* border: 2px solid greenyellow; */
-    width: 100%;
-    height: 30%;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
-.div4{
-    /* border: 2px solid greenyellow; */
-    background-color: black;
-    width: 100%;
-    height: 30%;
+.foto{
+    /* border:2px solid black; */
+    width: 30%;
+    height: 50%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
+
+.infoFull{
+    /* border:2px solid black; */
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
 
 .footer{
     /* border: 2px solid greenyellow; */
@@ -177,4 +162,15 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.banner{
+    background-color:black;
+    width: 100%;
+    height: 1.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
 }
