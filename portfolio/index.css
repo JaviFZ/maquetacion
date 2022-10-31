@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+body{
+    width: auto;
+    height: auto;
+}
+
+.header{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 17vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+
+.div1Head{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 3%;
+    font-size: 200%;
+}
+
+
+.div2Head{
+    /* border: 2px solid black; */
+    border-left: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 10%;
+}
+
+.button{
+    background-color: white;
+    border: 0px;
+    padding: 2%;
+}
+.a{
+    text-decoration: none;
+    color: black;
+}
+.a:hover{
+    background-color: black;
+    color: white;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+.margen{
+    width: 100%;
+    height: 17vh;
+}
+/* FINAL DE HEADER/////////////////////////////////////// */
+
+
+.divHome{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 77vh;
+    display: flex;
+    
+}
+
+.section1Home{
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5%;
+    
+}
+
+.img{
+    /* border: 2px solid green; */
+    display: flex;
+    height: 60%;
+    width: 40%;
+}
+
+
+.section2Home{
+    /* border: 2px solid black; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.divPres{
+    /* border: 2px solid black; */
+    border-left: 1px solid black;
+    padding-left: 3%;
+    height: 61%;
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+
+}
+.h1Pres{
+    margin-bottom: 7.5%;
+
+}
+
+
+/* FOOTER /////////////////////////////*/
+
+.footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 3vh;
+    padding-right: 3%;
+    padding-bottom: 1%;
+    padding-top: 0.2%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 0px;
+
+
+}
