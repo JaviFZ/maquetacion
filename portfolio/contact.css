@@ -8,17 +8,23 @@
 body{
     width: auto;
     height: auto;
+    position: relative;
 }
 
 .header{
     /* border: 2px solid black; */
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
     height: 17vh;
     width: 100%;
-    position: fixed;
+    
+    position:absolute;
+    
+    
     top: 0px;
+    bottom: 17vh;
 }
 
 .div1Head{
@@ -65,78 +71,107 @@ body{
 }
 /* FINAL DE HEADER/////////////////////////////////////// */
 
-.divAbout{
+.divHome{
     /* border: 2px solid red; */
     width: 100%;
     height: 80vh;
-    display: flex;    
-}
-
-.secAbout1{
-    /* border: 2px solid green; */
-    width: 50%;
-    height: 100%;
     display: flex;
-    justify-content: end;
-    font-size: x-large;
-}
-.divAbout1{
-    /* border: 2px solid blue; */
-    margin-right: 9%;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    text-align: end;
-    padding-top: 14.5%;
-
-}
-.h2About1{
-    padding-bottom: 20%;
+    position:static;
+    
+    
 }
 
-
-
-/* .secAbout2{
-    border: 2px solid green;
-    width: 50%;
-    height: 100%;
-    display: flex;
-} */
-.secAbout2{
+.section1Home{
     /* border: 2px solid black; */
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
-/* .divAbout2{
-    border: 2px solid pink;
-    margin-top: 15%;
-    margin-left: 15%;
-    margin-right: 10%;
-    padding: 2%;
-    display: flex;
-    flex-direction: column;
-
-} */
-.divAbout2{
+.divPres{
     /* border: 2px solid black; */
     border-left: 1px solid black;
-    padding-left: 3%;
     height: 61%;
+    margin-right: 9%;
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
     font-size: x-large;
 
 }
-.h1About2{
-    margin-bottom: 7.5%;
+.h1Pres{
+    padding-bottom: 5%;
+    
+}
 
+.section2Home{
+    /* border: 2px solid black; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.divPres2{
+    /* border: 2px solid black; */
+    border-left: 1px solid black;
+    height: 61%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* margin: 2%; */
+    position: relative;
+
+
+}
+.frame1{
+    /* border: 2px solid black; */
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    margin-left: 2%;
+    font-size: medium;
+
+}
+.form{
+    /* border: 2px solid green; */
+    height: 80%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.h2{
+    margin-bottom: 10%;
+}
+.input{
+    border: 0ch;
+    border-bottom: 1px solid black;
+    height: 20%;
+    width: 100%;
+    margin-bottom: 5%;
+
+}
+.input:active{
+    border: 0ch;
+}
+.buttonsend{
+    background-color: black;
+    color: white;
+    border: 0px;
+    padding: 2%;
 }
 
 
 
-/* FOOTER/////////////////////////////////////////////// */
+
+/* FOOTER /////////////////////////////*/
 
 .footer{
     background-color: black;
@@ -154,4 +189,3 @@ body{
 
 
 }
-

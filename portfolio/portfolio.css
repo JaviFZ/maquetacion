@@ -8,17 +8,23 @@
 body{
     width: auto;
     height: auto;
+    position: relative;
 }
 
 .header{
     /* border: 2px solid black; */
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
     height: 17vh;
     width: 100%;
-    position: fixed;
+    
+    position:absolute;
+    
+    
     top: 0px;
+    bottom: 17vh;
 }
 
 .div1Head{
@@ -66,15 +72,17 @@ body{
 /* FINAL DE HEADER/////////////////////////////////////// */
 
 .divHome{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
     height: 77vh;
     display: flex;
+    position:static;
+    
     
 }
 
 .section1Home{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -82,7 +90,7 @@ body{
     
 }
 .divPres{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-left: 1px solid black;
     height: 61%;
     margin-right: 9%;
@@ -97,26 +105,29 @@ body{
 }
 
 .section2Home{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
     
 }
 
 .divPres2{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-left: 1px solid black;
     height: 61%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     /* margin: 2%; */
+    position: relative;
+
 
 }
 .frame{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 48%;
     height: 47%;
     display: flex;
@@ -125,16 +136,21 @@ body{
     justify-content: center; */
     margin-left: 2%;
     
+    
 
 }
-.frame:hover{
-    width: 100%;
+.frame:active{
+    width: 99%;
     height: 100%;
     transition: 3s;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    
     
 }
 .marco{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     height: 99%;
     width: 99%;
