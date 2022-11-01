@@ -4,15 +4,15 @@
     box-sizing: border-box;
 }
 body{
-    height: 100vh;
-    width: 100vw;
+    height: auto;
+    width: auto;
     /* border: 2px solid red; */
     
 }
 .header{
     /* border: 2px solid blue; */
-    width: 100%;
-    height: 15%;
+    width: auto;
+    height: 15vh;
     display: flex;
     flex-direction:row;
     justify-content: space-between;
@@ -38,12 +38,15 @@ body{
     color:white;
 }
 
+
+
+
 .div{
     /* border: 2px solid green; */
-    width: 100%;
-    height: 85%;
+    width: auto;
+    height: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
@@ -51,8 +54,8 @@ body{
 .divIn{
     /* border: 2px solid red; */
     display: flex;
-    width: 33.33%;
-    height: 50%;
+    width: 33.02vw;
+    height: 42.5vh;
     justify-content: center;
     align-content: flex-start;
     margin: 0%;
@@ -72,3 +75,32 @@ body{
 
 
 
+@media screen and (max-width:850px){
+    .div{
+         flex-direction: column;
+         flex-wrap: wrap;
+    }
+    .divIn{
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+
+
+@media screen and (max-width:550px){
+    .div{
+        flex-direction: column;
+        flex-wrap: wrap;
+   }
+   .section2{
+       text-align: center;
+   }
+   .divIn{
+    width: 550px;
+}
+}
