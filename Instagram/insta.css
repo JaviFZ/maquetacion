@@ -136,6 +136,7 @@ body{
     height: 66%;
     align-items: flex-end;
     justify-content: center;
+    flex-wrap: wrap;
 
 }
 
