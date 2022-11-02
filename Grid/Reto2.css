@@ -3,7 +3,7 @@
     height: 100vh;
     display: grid;
     grid-template-columns: 2fr 1fr 2fr  2fr 1fr 2fr  ;
-    grid-template-rows: 70vh 30vh;
+    grid-template-rows: 70vh ;
 }
 
 .a{
@@ -14,31 +14,31 @@
 }
 
 .b {
-    background-color: rgb(204, 193, 41);
+    background-color: black;
     color: white;
     font-size: x-large;
     text-align: center;
 }
 .c {
-    background-color: rgb(202, 148, 11);
+    background-color: rgb(193, 243, 12);
     color: white;
     font-size: x-large;
     text-align: center;
 }
 .d {
-    background-color: rgb(193, 55, 17);
+    background-color: black;
     color: white;
     font-size: x-large;
     text-align: center;
 }
 .e {
-    background-color: rgb(91, 9, 111);
+    background-color: rgb(193, 243, 12);
     color: white;
     font-size: x-large;
     text-align: center;
 }
 .f {
-    background-color: rgb(213, 226, 32);
+    background-color: black;
     color: white;
     font-size: x-large;
     text-align: center;

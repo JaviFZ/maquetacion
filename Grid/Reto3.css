@@ -1,0 +1,7 @@
+
+.gridContainer{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 10vh 70vh 10vh;
+    
+}
