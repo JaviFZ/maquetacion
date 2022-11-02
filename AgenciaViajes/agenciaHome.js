@@ -42,13 +42,8 @@ function solicitarInformacion() {       //// funcion para guardar la info de cad
 function filtrar() {                                            ////funcion para filtrar las solicitudes.
     let arrayFlitrado = solicitudes.filter(                     ////creamos una variable, que va a ser igual al array anterior filtrado con el metodo .filter de los arrays
         function (solicitud) {                                  ////en los parametros de filter hacemos otra función que va a comparar el valor de cada solicitud de destino
-            if (solicitud.destino.toLowerCase() == "mallorca" || solicitud.destino.toLowerCase() == "galicia" || solicitud.destino.toLowerCase() == "canarias" ) {
-                return true;
-            }else{
-                return false;                                  ////en caso false descartará la solicitud en el array
-            }
-        }
-    )
+            return (solicitud.destino.toLowerCase() == "mallorca" || solicitud.destino.toLowerCase() == "galicia" || solicitud.destino.toLowerCase() == "canarias" ) 
+        })
     let lista = document.getElementById("solicitudes");         //// en la variable guardamos el resultado de solicitudes recogido del document(pagina completa).
 
     arrayFlitrado.forEach(function (solicitud) {                //// por ultimo recorremos el arrayFiltrado en el que se encuentran las solicitudes 
