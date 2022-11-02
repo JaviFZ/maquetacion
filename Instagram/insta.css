@@ -13,7 +13,7 @@ body{
 
 
 .mainDiv{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: auto;
     height: auto;
     display: flex;
@@ -22,7 +22,7 @@ body{
     margin-top: 10vh;
 }
  .iphoneDiv{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 400px;
     display: flex;
     
@@ -33,7 +33,7 @@ body{
     height: 600px;
  }
 .formDiv{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     height: 590px;
     width: 400px;
     margin-left: 1%;
@@ -136,6 +136,7 @@ body{
     height: 66%;
     align-items: flex-end;
     justify-content: center;
+    flex-wrap: wrap;
 
 }
 
