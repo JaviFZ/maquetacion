@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.gridContainer{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: [x0]1fr [x1]1fr [x2]1fr [x3]1fr  [x4] ;
+    grid-template-rows: [y0]10vh [y1]40vh [y2]40vh [y3]10vh [y4];
+}
+
+
+.header{
+    background-color: black;
+    grid-column: x0 / x4;
+    grid-row: y0 / y1;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 4vh;
+
+}
+
+
+
+.contenido{
+    background-color: blue;
+    grid-column: x0 / x3;
+    grid-row: y1 / y3;
+    color: white;
+    display: grid;
+    grid-template-columns:[x0]1fr [x1]1fr [x2]1fr [x3] ;
+    grid-template-rows: [y0]20vh [y1]50vh [y2];
+    /* gap:10px; */
+    padding: 2%;
+}
+.cont1{
+    border: 2px solid white;
+    grid-column: x0 / x4;
+    grid-row: y0 / y1;
+    font-size: xx-large;
+    padding: 1%;
+    margin: 4px;
+}
+.cont2{
+    border: 2px solid white;
+    grid-column: x0 / x2;
+    grid-row: y1 / y2;
+    padding: 1%;
+    margin: 4px;
+}
+.cont3{
+    border: 2px solid white;
+    grid-column: x2 / x3;
+    grid-row: y1 / y2;
+    padding: 2%;
+    margin: 4px;
+}
+
+
+
+.divMenu{
+    background-color:aquamarine;
+    grid-column: x3 / x4;
+    grid-row: y1 / y3;
+    color: white;
+    display: grid;
+    grid-template-rows: [y0]1fr [y1]1fr [y2] 1fr [y3] 1fr [y4];
+    
+}
+
+.menu{
+    background-color: aquamarine;
+    border: 2px solid black;
+    grid-row: y0 / y1;
+    margin: 20px 10px;
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 11%;
+}
+.menu1{
+    background-color: black;
+    color: white;
+    grid-row: y1 / y2;
+    margin: 0px 10px 20px 10px;
+    text-align: center;
+    padding-top: 15%;
+    
+}
+.menu2{
+    background-color: black;
+    grid-row: y2 / y3;
+    margin: 0px 10px 20px 10px;
+    text-align: center;
+    padding-top: 15%;
+}
+.menu3{
+    background-color: black;
+    grid-row: y3 / y4;
+    margin: 0px 10px 20px 10px;
+    text-align: center;
+    padding-top: 15%;
+
+}
+
+
+
+.foot{
+    background-color: blueviolet;
+    grid-column: x0 / x4;
+    grid-row: y3 / y4;
+    color: white;
+    display:grid;   
+    grid-template-columns: [x0]1fr [x1]1fr[x2];
+    
+}
+
+.footer{
+    border: 2px solid black;
+    margin: 5px;
+    text-align:center;
+    padding-top: 3%;
+}
+.contacto{
+    border: 2px solid black;
+    margin: 5px;
+    text-align:center;
+    padding-top: 3%;
+}

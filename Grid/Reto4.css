@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.gridAreas{
+    height: 100vh;
+    
+    display: grid;
+
+    grid-template-areas: 
+        'header header imagen'
+        'aside contenido contenido'
+        'aside contenido contenido '
+        'aside contenido contenido '
+        'aside contenido contenido '
+        'footer footer footer';
+}
+
+.header{
+    grid-area: header;
+    background-color: rgb(128, 66, 0);
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
+.imagen{
+    grid-area: imagen;
+    background-color: maroon;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
+.aside{
+    grid-area: aside;
+    background-color: rgb(244, 128, 4);
+    display: grid;
+    grid-template-areas: 'aside1'
+                        'aside'
+                        'aside2';
+}
+.aside1{
+    background-color: aliceblue;
+    grid-area: aside1;
+    margin: 3%;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(244, 128, 4);
+}
+.aside2{
+    background-color: aliceblue;
+    margin: 3%;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(244, 128, 4);
+}
+
+.contenedor{
+    grid-area: contenido;
+    background-color: orange;
+    display: grid;
+    grid-template-areas: 'cont'
+                        'texto';
+
+}
+.contenido{
+    border: 2px solid white;
+    grid-area: cont;
+    margin: 2% 2% 0.5% 2%;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
+.texto{
+    grid-area: texto;
+    border: 2px solid white;
+    margin: 0.5% 2% 2% 2%;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
+
+
+.footer{
+    grid-area: footer;
+    background-color: maroon;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
