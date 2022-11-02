@@ -45,7 +45,7 @@ function filtrar() {                                            ////funcion para
             return (solicitud.destino.toLowerCase() == "mallorca" || solicitud.destino.toLowerCase() == "galicia" || solicitud.destino.toLowerCase() == "canarias" ) 
         })
     let lista = document.getElementById("solicitudes");         //// en la variable guardamos el resultado de solicitudes recogido del document(pagina completa).
-
+    lista.innerHTML = "" ;
     arrayFlitrado.forEach(function (solicitud) {                //// por ultimo recorremos el arrayFiltrado en el que se encuentran las solicitudes 
         console.log(solicitud);                                 ////en los parametros ponemos una funcion que primero nos muestra por consola las solicitudes
         lista.innerHTML += `<p>Nombre: ${solicitud.nombre} <br>  
