@@ -19,6 +19,8 @@ body{
     width: 100%;
     position: fixed;
     top: 0px;
+    position:fixed;
+    z-index: 999;
 }
 
 .div1Head{
