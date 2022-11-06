@@ -86,10 +86,14 @@ body{
 
          flex-direction: column;
          flex-wrap: wrap;
+         align-items: center;
+         justify-content: center;
     }
     .divIn{
         flex-direction: column;
         flex-wrap: wrap;
+        align-items: center;
+         justify-content: center;
     }
     .figure{
         margin-bottom: 1vh;
@@ -111,6 +115,7 @@ body{
    }
    .lorem{
        text-align: center;
+       margin-left: 10%;
    }
    .figure{
     display: none;

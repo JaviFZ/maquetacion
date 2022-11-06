@@ -30,7 +30,7 @@ body{
     height: 100%;
     align-items: center;
     text-size-adjust: 60%;
-    text-decoration: none;
+    /* text-decoration: none; */
     
 }
 .a{
@@ -54,7 +54,7 @@ body{
 .divIn{
     /* border: 2px solid red; */
     display: flex;
-    width: 33.02vw;
+    width: 33.33vw;
     height: 42.5vh;
     justify-content: center;
     align-content: flex-start;
@@ -93,6 +93,7 @@ body{
 
 
 @media screen and (max-width:550px){
+ 
     .div{
         flex-direction: column;
         flex-wrap: wrap;
