@@ -62,15 +62,15 @@ function tarjeta() {
     movies.forEach(function (movie) {
         document.getElementById("movies").innerHTML += `
         <div class="card" style="width: 18rem;">
-                <img src="${movie.image}" class="card-img-top" alt="...">
+                <img src="${movie.image}" class="card-img-top" style="height:400px" alt="...">
                 <div class="card-body">
-                <h5 class="card-title" id="card_title1">${movie.title}<br>(${movie.releaseYear})</h5>
+                <h5 class="card-title" style="height:80px" id="card_title1">${movie.title}<br>(${movie.releaseYear})</h5>
                 <p class="card-text"> 
-                Director : ${movie.director}<br>
-                Lugar de rodaje : ${movie.nationality}<br>
-                Idioma : ${movie.language}<br>
-                Personajes : ${movie.mainCharacterName}<br>
-                Género : ${movie.genre}<br>
+                <b> Director :</b> ${movie.director}<br>
+                <b>Lugar de rodaje :</b> ${movie.nationality}<br>
+                <b>Idioma : </b>${movie.language}<br>
+                <b>Personajes : </b>${movie.mainCharacterName}<br>
+                <b>Género : </b>${movie.genre}<br>
 
 
 
@@ -84,8 +84,6 @@ function tarjeta() {
 window.onload = (event) => {
     tarjeta();
 };
-
-
 
 
 
@@ -125,3 +123,25 @@ function introducirPeli() {
     
     tarjeta();
 }
+
+
+
+
+// <//INTENTO PONER LAS TARJETAS DE HOME CON JAVA
+
+// function slides() {
+//     console.log(movies);
+//     document.getElementById("slides").innerHTML= '';
+//     movies.forEach(function (movie) {
+//         document.getElementById("slides").innerHTML = `
+//         <div class="card" style="width: 18rem;">
+//             <img src="${movie.image}" class="card-img-top" style="height:400px" alt="...">
+//             <div class="card-body">
+//                 <h5 class="card-title" style="height:80px" id="card_title1">${movie.title}<br>(${movie.releaseYear})</h5>
+//             </div>
+//         </div> `
+//     })
+// }
+// window.onload = (event) => {
+//     slides();
+// };
